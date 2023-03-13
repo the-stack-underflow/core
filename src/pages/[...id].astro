@@ -1,0 +1,73 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { Config, Views } from "../lib/Shared";
+
+const id = new URL(Astro.request.url).pathname;
+
+
+function matchUrlWithWildcards(urlPattern: string, url: string): { match: boolean, path?: string, wildcards: Record<string, string> } {
+  const urlPatternParts = urlPattern.split('/');
+  const urlParts = url.split('/');
+  const wildcards: Record<string, string> = {};
+  let path = '';
+
+  if (urlPatternParts.length !== urlParts.length) {
+    return { match: false, wildcards };
+  }
+
+  for (let i = 0; i < urlPatternParts.length; i++) {
+    const urlPatternPart = urlPatternParts[i];
+    const urlPart = urlParts[i];
+
+    if (urlPatternPart === urlPart) {
+      // The two parts match, continue to the next part
+      path += urlPart;
+      if (i !== urlPatternParts.length - 1) {
+        path += '/';
+      }
+      continue;
+    }
+
+    if (urlPatternPart.startsWith('[') && urlPatternPart.endsWith(']')) {
+      // This part of the URL pattern is a wildcard, so it matches anything
+      const wildcardName = urlPatternPart.slice(1, -1);
+      wildcards[wildcardName] = urlPart;
+      path += urlPart;
+      if (i !== urlPatternParts.length - 1) {
+        path += '/';
+      }
+      continue;
+    }
+
+    // The two parts are not equal and the URL pattern part is not a wildcard
+    return { match: false, wildcards };
+  }
+
+  return { match: true, path, wildcards };
+}
+
+let captured;
+let matched = false;
+let matchPath = "";
+for (const name in Views) {
+	let { match, wildcards, path } = matchUrlWithWildcards(name, id);
+	if (match) {
+		matched = true;
+		matchPath = name;
+		captured = wildcards;
+		break;
+	}
+}
+
+if (!matched) {
+	return Astro.redirect("/404");
+}
+
+const Component = Views[matchPath].component;
+---
+
+<Layout title={Views[matchPath].options.title || Config.title}>
+	<main class="p-6 w-full">
+		<Component {...captured}></Component>
+	</main>
+</Layout>
