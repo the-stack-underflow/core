@@ -8,23 +8,21 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/the-meta-lang/repo_name">
+  <a href="https://github.com/the-stack-underflow/core">
     <img src="images/logo.svg" alt="Logo" width="400">
   </a>
 
-<h3 align="center">project_title</h3>
+<h3 align="center">StackUnderflow</h3>
 
   <p align="center">
-    project_description
+    StackOverflow but offline.
     <br />
-    <a href="https://github.com/the-meta-lang/repo_name"><strong>Explore the docs »</strong></a>
+    <a href="https://stackunderflow.continuum-ai.de/docs"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/the-meta-lang/repo_name">View Demo</a>
+    <a href="https://github.com/the-stack-underflow/core/issues">Report Bug</a>
     ·
-    <a href="https://github.com/the-meta-lang/repo_name/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/the-meta-lang/repo_name/issues">Request Feature</a>
+    <a href="https://github.com/the-stack-underflow/core/issues">Request Feature</a>
   </p>
 </div>
 
@@ -33,50 +31,43 @@
 - [About The Project](#about-the-project)
 - [Getting Started](#getting-started)
 	- [Prerequisites](#prerequisites)
-	- [Installation](#installation)
+	- [Global Installation](#global-installation)
 - [Usage](#usage)
-- [Roadmap](#roadmap)
 - [Contributing](#contributing)
 - [License](#license)
 
 
 ## About The Project
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `repo_name`, `project_title`, `project_description`
+StackUnderflow
+is a platform for developers who want to access and browse through StackOverflow
+content without an internet connection. While StackOverflow is an online
+platform where users can ask and answer questions related to various programming
+languages, frameworks, and tools, StackUnderflow is a purely offline version of
+it that brings the same knowledge base to your computer.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
-<!-- GETTING STARTED -->
 ## Getting Started
-
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+Before getting started, you need to have [node.js](https://nodejs.org/)
+installed in your system. If you haven't already, please download node.js and
+install it first.
 
-### Installation
+### Global Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/the-meta-lang/repo_name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
+1.  Open a terminal window on your computer.
+2.  Type the following command to install _StackUnderflow_:
+
+```bash
+npm install -g stackunderflow
+```
+
+3.  Wait for the installation process to finish.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -84,27 +75,17 @@ This is an example of how to list things you need to use the software and how to
 
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+After installing _StackUnderflow_, you can use it by typing the following command in your terminal:
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+```bash
+stackunderflow
+```
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+This will open your standard webbrowser to your `localhost`.
 
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
-
-See the [open issues](https://github.com/the-meta-lang/repo_name/issues) for a full list of proposed features (and known issues).
+_For further instructions, please refer to the [Documentation](https://stackunderflow.continuum-ai.de/docs)_
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 ## Contributing
 
@@ -130,13 +111,13 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-[contributors-shield]: https://img.shields.io/github/contributors/the-meta-lang/repo_name.svg?style=for-the-badge
-[contributors-url]: https://github.com/the-meta-lang/repo_name/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/the-meta-lang/repo_name.svg?style=for-the-badge
-[forks-url]: https://github.com/the-meta-lang/repo_name/network/members
-[stars-shield]: https://img.shields.io/github/stars/the-meta-lang/repo_name.svg?style=for-the-badge
-[stars-url]: https://github.com/the-meta-lang/repo_name/stargazers
-[issues-shield]: https://img.shields.io/github/issues/the-meta-lang/repo_name.svg?style=for-the-badge
-[issues-url]: https://github.com/the-meta-lang/repo_name/issues
-[license-shield]: https://img.shields.io/github/license/the-meta-lang/repo_name.svg?style=for-the-badge
-[license-url]: https://github.com/the-meta-lang/repo_name/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/the-stack-underflow/core.svg?style=for-the-badge
+[contributors-url]: https://github.com/the-stack-underflow/core/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/the-stack-underflow/core.svg?style=for-the-badge
+[forks-url]: https://github.com/the-stack-underflow/core/network/members
+[stars-shield]: https://img.shields.io/github/stars/the-stack-underflow/core.svg?style=for-the-badge
+[stars-url]: https://github.com/the-stack-underflow/core/stargazers
+[issues-shield]: https://img.shields.io/github/issues/the-stack-underflow/core.svg?style=for-the-badge
+[issues-url]: https://github.com/the-stack-underflow/core/issues
+[license-shield]: https://img.shields.io/github/license/the-stack-underflow/core.svg?style=for-the-badge
+[license-url]: https://github.com/the-stack-underflow/core/blob/master/LICENSE.txt
