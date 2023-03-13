@@ -1,16 +1,20 @@
 {
+	"extends": "astro/tsconfigs/strict",
 	"compilerOptions": {
+		"target": "ESNext",
+		"module": "ESNext",
+		"moduleResolution": "node",
+		"resolveJsonModule": true,
+		"isolatedModules": true,
+		"noEmit": true,
+		"forceConsistentCasingInFileNames": true,
+		"esModuleInterop": true,
+		"skipLibCheck": true,
+		"strict": true,
+		"importsNotUsedAsValues": "error",
 		"allowSyntheticDefaultImports": true,
-		"declarationDir": "./dist/types/",
-		"declaration": true,
-		"declarationMap": true,
-		"target": "ES5",
-		"module": "ES2022",
-		"moduleDetection": "auto",
-		"outDir": "./dist/",
-		"rootDir": "./src/",
-		"removeComments": true,
-		"moduleResolution": "node"
-	},
-	"compileOnSave": true
+		"paths": {
+			"~/types/*": ["./src/types/*"]
+		}
+	}
 }
