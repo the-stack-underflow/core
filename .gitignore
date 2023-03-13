@@ -1,38 +1,28 @@
-# Logs
-logs
-*.log
+# build output
+dist/
+
+# generated types
+.astro/
+
+# vscode
+.vscode
+
+# dependencies
+node_modules/
+
+# logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-lerna-debug.log*
+pnpm-debug.log*
 
-# Diagnostic reports (https://nodejs.org/api/report.html)
-report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
-
-# Runtime data
-pids
-*.pid
-*.seed
-*.pid.lock
-
-# Dependency directories
-node_modules/
-
-# TypeScript cache
-*.tsbuildinfo
-
-# Output of 'npm pack'
-*.tgz
-
-# Yarn Integrity file
-.yarn-integrity
-
-# dotenv environment variables file
+# environment variables
 .env
-.env.test
+.env.production
 
-# TypeScript Output
-dist
+# macOS-specific files
+.DS_Store
 
-# pnpm lock
-pnpm-lock.yaml
+# downloads
+
+content/*
