@@ -1,0 +1,11 @@
+---
+import { Settings} from "../components/Settings";
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout title="Settings">
+	<main class="w-full p-6">
+		<h1>Settings</h1>
+		<Settings client:only></Settings>
+	</main>
+</Layout>

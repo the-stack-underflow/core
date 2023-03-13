@@ -1,0 +1,1 @@
+export type ViewLinks = {[id: string]: any};

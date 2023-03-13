@@ -1,0 +1,1609 @@
+[
+	{
+		"logo": "https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon.png",
+		"title": "Stack Overflow",
+		"description": "Q&A for professional and enthusiast programmers",
+		"link": "https://stackoverflow.com",
+		"dataset": "Stackoverflow.com-Posts.7z",
+		"size": "18.3G",
+		"category": "Technology",
+		"safe_name": "stack_overflow"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/serverfault/Img/apple-touch-icon.png",
+		"title": "Server Fault",
+		"description": "Q&A for system and network administrators",
+		"link": "https://serverfault.com",
+		"dataset": "serverfault.com.7z",
+		"size": "742.8M",
+		"safe_name": "server_fault"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/superuser/Img/apple-touch-icon.png",
+		"title": "Super User",
+		"description": "Q&A for computer enthusiasts and power users",
+		"link": "https://superuser.com",
+		"dataset": "superuser.com.7z",
+		"size": "1.1G",
+		"safe_name": "super_user"
+	},
+	{
+		"logo": "https://meta.stackexchange.com/Content/Sites/stackexchangemeta/Img/icon-48.png",
+		"title": "Meta Stack Exchange",
+		"description": "Q&A for meta-discussion of the Stack Exchange family of Q&A websites",
+		"link": "https://meta.stackexchange.com",
+		"dataset": "3dprinting.meta.stackexchange.com.7z",
+		"size": "698.8K",
+		"safe_name": "meta_stack_exchange"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/webapps/Img/icon-48.png?v=f5a02f85db94",
+		"title": "Web Applications",
+		"description": "Q&A for power users of web applications",
+		"link": "https://webapps.stackexchange.com",
+		"dataset": "webapps.stackexchange.com.7z",
+		"size": "68.4M",
+		"safe_name": "web_applications"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/gaming/Img/apple-touch-icon.png",
+		"title": "Arqade",
+		"description": "Q&A for passionate videogamers on all platforms",
+		"link": "https://gaming.stackexchange.com",
+		"dataset": "gaming.stackexchange.com.7z",
+		"size": "202.9M",
+		"safe_name": "arqade"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/webmasters/Img/icon-48.png",
+		"title": "Webmasters",
+		"description": "Q&A for webmasters",
+		"link": "https://webmasters.stackexchange.com",
+		"dataset": "webmasters.stackexchange.com.7z",
+		"size": "80.3M",
+		"safe_name": "webmasters"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/cooking/Img/icon-48.png?v=f5a02f85db94",
+		"title": "Seasoned Advice",
+		"description": "Q&A for professional and amateur chefs",
+		"link": "https://cooking.stackexchange.com",
+		"dataset": "cooking.stackexchange.com.7z",
+		"size": "69.8M",
+		"safe_name": "seasoned_advice"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/gamedev/Img/icon-48.png?v=f5a02f85db94",
+		"title": "Game Development",
+		"description": "Q&A for professional and independent game developers",
+		"link": "https://gamedev.stackexchange.com",
+		"dataset": "gamedev.stackexchange.com.7z",
+		"size": "156.0M",
+		"safe_name": "game_development"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/photo/Img/icon-48.png",
+		"title": "Photography",
+		"description": "Q&A for professional, enthusiast and amateur photographers",
+		"link": "https://photo.stackexchange.com",
+		"dataset": "photo.stackexchange.com.7z",
+		"size": "95.7M",
+		"safe_name": "photography"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/stats/Img/icon-48.png",
+		"title": "Cross Validated",
+		"description": "Q&A for people interested in statistics, machine learning, data analysis, data mining, and data visualization",
+		"link": "https://stats.stackexchange.com",
+		"dataset": "stats.stackexchange.com.7z",
+		"size": "500.0M",
+		"safe_name": "cross_validated"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/math/Img/apple-touch-icon.png",
+		"title": "Mathematics",
+		"description": "Q&A for people studying math at any level and professionals in related fields",
+		"link": "https://math.stackexchange.com",
+		"dataset": "math.stackexchange.com.7z",
+		"size": "3.0G",
+		"safe_name": "mathematics"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/diy/Img/icon-48.png",
+		"title": "Home Improvement",
+		"description": "Q&A for contractors and serious DIYers",
+		"link": "https://diy.stackexchange.com",
+		"dataset": "diy.stackexchange.com.7z",
+		"size": "165.2M",
+		"safe_name": "home_improvement"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/gis/Img/icon-48.png",
+		"title": "Geographic Information Systems",
+		"description": "Q&A for cartographers, geographers and GIS professionals",
+		"link": "https://gis.stackexchange.com",
+		"dataset": "gis.stackexchange.com.7z",
+		"size": "334.7M",
+		"safe_name": "geographic_information_systems"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/tex/Img/icon-48.png",
+		"title": "TeX - LaTeX",
+		"description": "Q&A for users of TeX, LaTeX, ConTeXt, and related typesetting systems",
+		"link": "https://tex.stackexchange.com",
+		"dataset": "tex.stackexchange.com.7z",
+		"size": "689.3M",
+		"safe_name": "tex_latex"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/askubuntu/Img/apple-touch-icon.png",
+		"title": "Ask Ubuntu",
+		"description": "Q&A for Ubuntu users and developers",
+		"link": "https://askubuntu.com",
+		"dataset": "askubuntu.com.7z",
+		"size": "949.7M",
+		"safe_name": "ask_ubuntu"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/money/Img/icon-48.png",
+		"title": "Personal Finance & Money",
+		"description": "Q&A for people who want to be financially literate",
+		"link": "https://money.stackexchange.com",
+		"dataset": "money.stackexchange.com.7z",
+		"size": "105.7M",
+		"safe_name": "personal_finance_money"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/english/Img/apple-touch-icon.png?v=93426798a1d4",
+		"title": "English Language & Usage",
+		"description": "Q&A for linguists, etymologists, and serious English language enthusiasts",
+		"link": "https://english.stackexchange.com",
+		"dataset": "english.stackexchange.com.7z",
+		"size": "374.4M",
+		"safe_name": "english_language_usage"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/stackapps/Img/icon-48.png",
+		"title": "Stack Apps",
+		"description": "Q&A for apps, scripts, and development with the Stack Exchange API",
+		"link": "https://stackapps.com",
+		"dataset": "stackapps.com.7z",
+		"size": "13.4M",
+		"safe_name": "stack_apps"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/ux/Img/icon-48.png",
+		"title": "User Experience",
+		"description": "Q&A for user experience researchers and experts",
+		"link": "https://ux.stackexchange.com",
+		"dataset": "ux.stackexchange.com.7z",
+		"size": "102.1M",
+		"safe_name": "user_experience"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/unix/Img/icon-48.png",
+		"title": "Unix & Linux",
+		"description": "Q&A for users of Linux, FreeBSD and other Un*x-like operating systems",
+		"link": "https://unix.stackexchange.com",
+		"dataset": "unix.stackexchange.com.7z",
+		"size": "605.8M",
+		"safe_name": "unix_linux"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/wordpress/Img/icon-48.png",
+		"title": "WordPress Development",
+		"description": "Q&A for WordPress developers and administrators",
+		"link": "https://wordpress.stackexchange.com",
+		"dataset": "wordpress.stackexchange.com.7z",
+		"size": "219.8M",
+		"safe_name": "wordpress_development"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/cstheory/Img/icon-48.png",
+		"title": "Theoretical Computer Science",
+		"description": "Q&A for theoretical computer scientists and researchers in related fields",
+		"link": "https://cstheory.stackexchange.com",
+		"dataset": "cstheory.stackexchange.com.7z",
+		"size": "37.8M",
+		"safe_name": "theoretical_computer_science"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/apple/Img/apple-touch-icon.png",
+		"title": "Ask Different",
+		"description": "Q&A for power users of Apple hardware and software",
+		"link": "https://apple.stackexchange.com",
+		"dataset": "apple.stackexchange.com.7z",
+		"size": "258.2M",
+		"safe_name": "ask_different"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/rpg/Img/icon-48.png",
+		"title": "Role-playing Games",
+		"description": "Q&A for gamemasters and players of tabletop, paper-and-pencil role-playing games",
+		"link": "https://rpg.stackexchange.com",
+		"dataset": "rpg.stackexchange.com.7z",
+		"size": "240.2M",
+		"safe_name": "role_playing_games"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/bicycles/Img/icon-48.png",
+		"title": "Bicycles",
+		"description": "Q&A for people who build and repair bicycles, people who train cycling, or commute on bicycles",
+		"link": "https://bicycles.stackexchange.com",
+		"dataset": "bicycles.stackexchange.com.7z",
+		"size": "63.2M",
+		"safe_name": "bicycles"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/softwareengineering/Img/icon-48.png",
+		"title": "Software Engineering",
+		"description": "Q&A for professionals, academics, and students working within the systems development life cycle",
+		"link": "https://softwareengineering.stackexchange.com",
+		"dataset": "softwareengineering.stackexchange.com.7z",
+		"size": "300.3M",
+		"safe_name": "software_engineering"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/electronics/Img/icon-48.png",
+		"title": "Electrical Engineering",
+		"description": "Q&A for electronics and electrical engineering professionals, students, and enthusiasts",
+		"link": "https://electronics.stackexchange.com",
+		"dataset": "electronics.stackexchange.com.7z",
+		"size": "504.4M",
+		"safe_name": "electrical_engineering"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/android/Img/icon-48.png?v=f5a02f85db94",
+		"title": "Android Enthusiasts",
+		"description": "Q&A for enthusiasts and power users of the Android operating system",
+		"link": "https://android.stackexchange.com",
+		"dataset": "android.stackexchange.com.7z",
+		"size": "110.6M",
+		"safe_name": "android_enthusiasts"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/boardgames/Img/icon-48.png",
+		"title": "Board & Card Games",
+		"description": "Q&A for people who like playing board games, designing board games or modifying the rules of existing board games",
+		"link": "https://boardgames.stackexchange.com",
+		"dataset": "boardgames.stackexchange.com.7z",
+		"size": "37.1M",
+		"safe_name": "board_card_games"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/physics/Img/icon-48.png?v=f5a02f85db94",
+		"title": "Physics",
+		"description": "Q&A for active researchers, academics and students of physics",
+		"link": "https://physics.stackexchange.com",
+		"dataset": "physics.stackexchange.com.7z",
+		"size": "592.0M",
+		"safe_name": "physics"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/homebrew/Img/icon-48.png",
+		"title": "Homebrewing",
+		"description": "Q&A for dedicated home brewers and serious enthusiasts",
+		"link": "https://homebrew.stackexchange.com",
+		"dataset": "homebrew.stackexchange.com.7z",
+		"size": "13.5M",
+		"safe_name": "homebrewing"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/security/Img/icon-48.png",
+		"title": "Information Security",
+		"description": "Q&A for information security professionals",
+		"link": "https://security.stackexchange.com",
+		"dataset": "security.stackexchange.com.7z",
+		"size": "218.3M",
+		"safe_name": "information_security"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/writing/Img/icon-48.png?v=f5a02f85db94",
+		"title": "Writing",
+		"description": "Q&A for the craft of professional writing, including fiction, non-fiction, technical, scholarly, and commercial writing",
+		"link": "https://writing.stackexchange.com",
+		"safe_name": "writing"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/avp/Img/icon-48.png",
+		"title": "Video Production",
+		"description": "Q&A for engineers, producers, editors and enthusiasts spanning the fields of video and media creation",
+		"link": "https://video.stackexchange.com",
+		"safe_name": "video_production"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/graphicdesign/Img/icon-48.png",
+		"title": "Graphic Design",
+		"description": "Q&A for Graphic Design professionals, students, and enthusiasts",
+		"link": "https://graphicdesign.stackexchange.com",
+		"dataset": "graphicdesign.stackexchange.com.7z",
+		"size": "85.4M",
+		"safe_name": "graphic_design"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/dba/Img/icon-48.png",
+		"title": "Database Administrators",
+		"description": "Q&A for database professionals who wish to improve their database skills and learn from others in the community",
+		"link": "https://dba.stackexchange.com",
+		"dataset": "dba.stackexchange.com.7z",
+		"size": "279.4M",
+		"safe_name": "database_administrators"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/scifi/Img/icon-48.png",
+		"title": "Science Fiction & Fantasy",
+		"description": "Q&A for science fiction and fantasy enthusiasts",
+		"link": "https://scifi.stackexchange.com",
+		"dataset": "scifi.stackexchange.com.7z",
+		"size": "283.8M",
+		"safe_name": "science_fiction_fantasy"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/codereview/Img/icon-48.png",
+		"title": "Code Review",
+		"description": "Q&A for peer programmer code reviews",
+		"link": "https://codereview.stackexchange.com",
+		"dataset": "codereview.stackexchange.com.7z",
+		"size": "493.0M",
+		"safe_name": "code_review"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/codegolf/Img/icon-48.png",
+		"title": "Code Golf",
+		"description": "Q&A for programming puzzle enthusiasts and code golfers",
+		"link": "https://codegolf.stackexchange.com",
+		"dataset": "codegolf.stackexchange.com.7z",
+		"size": "362.9M",
+		"safe_name": "code_golf"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/quant/Img/icon-48.png",
+		"title": "Quantitative Finance",
+		"description": "Q&A for finance professionals and academics",
+		"link": "https://quant.stackexchange.com",
+		"dataset": "quant.stackexchange.com.7z",
+		"size": "45.4M",
+		"safe_name": "quantitative_finance"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/pm/Img/icon-48.png",
+		"title": "Project Management",
+		"description": "Q&A for project managers",
+		"link": "https://pm.stackexchange.com",
+		"dataset": "pm.stackexchange.com.7z",
+		"size": "25.1M",
+		"safe_name": "project_management"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/skeptics/Img/icon-48.png",
+		"title": "Skeptics",
+		"description": "Q&A for scientific skepticism",
+		"link": "https://skeptics.stackexchange.com",
+		"dataset": "skeptics.stackexchange.com.7z",
+		"size": "68.3M",
+		"safe_name": "skeptics"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/fitness/Img/icon-48.png?v=f5a02f85db94",
+		"title": "Physical Fitness",
+		"description": "Q&A for physical fitness professionals, athletes, trainers, and those providing health-related needs",
+		"link": "https://fitness.stackexchange.com",
+		"dataset": "fitness.stackexchange.com.7z",
+		"size": "28.4M",
+		"safe_name": "physical_fitness"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/drupal/Img/icon-48.png",
+		"title": "Drupal Answers",
+		"description": "Q&A for Drupal developers and administrators",
+		"link": "https://drupal.stackexchange.com",
+		"dataset": "drupal.stackexchange.com.7z",
+		"size": "149.5M",
+		"safe_name": "drupal_answers"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/mechanics/Img/icon-48.png",
+		"title": "Motor Vehicle Maintenance & Repair",
+		"description": "Q&A for mechanics and DIY enthusiast owners of cars, trucks, and motorcycles",
+		"link": "https://mechanics.stackexchange.com",
+		"dataset": "mechanics.stackexchange.com.7z",
+		"size": "52.0M",
+		"safe_name": "motor_vehicle_maintenance_repair"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/parenting/Img/icon-48.png",
+		"title": "Parenting",
+		"description": "Q&A for parents, grandparents, nannies and others with a parenting role",
+		"link": "https://parenting.stackexchange.com",
+		"dataset": "parenting.stackexchange.com.7z",
+		"size": "37.0M",
+		"safe_name": "parenting"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/sharepoint/Img/icon-48.png",
+		"title": "SharePoint",
+		"description": "Q&A for SharePoint enthusiasts",
+		"link": "https://sharepoint.stackexchange.com",
+		"dataset": "sharepoint.stackexchange.com.7z",
+		"size": "154.0M",
+		"safe_name": "sharepoint"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/music/Img/icon-48.png",
+		"title": "Music: Practice & Theory",
+		"description": "Q&A for musicians, students, and enthusiasts",
+		"link": "https://music.stackexchange.com",
+		"dataset": "music.stackexchange.com.7z",
+		"size": "84.6M",
+		"safe_name": "music_practice_theory"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/sqa/Img/icon-48.png",
+		"title": "Software Quality Assurance & Testing",
+		"description": "Q&A for software quality control experts, automation engineers, and software testers",
+		"link": "https://sqa.stackexchange.com",
+		"dataset": "sqa.stackexchange.com.7z",
+		"size": "33.1M",
+		"safe_name": "software_quality_assurance_testing"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/judaism/Img/icon-48.png?v=f5a02f85db94",
+		"title": "Mi Yodeya",
+		"description": "Q&A for those who base their lives on Jewish law and tradition and anyone interested in learning more",
+		"link": "https://judaism.stackexchange.com",
+		"dataset": "judaism.stackexchange.com.7z",
+		"size": "113.4M",
+		"safe_name": "mi_yodeya"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/german/Img/icon-48.png",
+		"title": "German Language",
+		"description": "Q&A for speakers of German wanting to discuss the finer points of the language and translation",
+		"link": "https://german.stackexchange.com",
+		"dataset": "german.stackexchange.com.7z",
+		"size": "54.5M",
+		"safe_name": "german_language"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/japanese/Img/icon-48.png",
+		"title": "Japanese Language",
+		"description": "Q&A for students, teachers, and linguists wanting to discuss the finer points of the Japanese language",
+		"link": "https://japanese.stackexchange.com",
+		"dataset": "japanese.stackexchange.com.7z",
+		"size": "57.8M",
+		"safe_name": "japanese_language"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/philosophy/Img/icon-48.png",
+		"title": "Philosophy",
+		"description": "Q&A for those interested in the study of the fundamental nature of knowledge, reality, and existence",
+		"link": "https://philosophy.stackexchange.com",
+		"dataset": "philosophy.stackexchange.com.7z",
+		"size": "92.5M",
+		"safe_name": "philosophy"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/gardening/Img/icon-48.png",
+		"title": "Gardening & Landscaping",
+		"description": "Q&A for gardeners and landscapers",
+		"link": "https://gardening.stackexchange.com",
+		"dataset": "gardening.stackexchange.com.7z",
+		"size": "35.2M",
+		"safe_name": "gardening_landscaping"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/travel/Img/icon-48.png",
+		"title": "Travel",
+		"description": "Q&A for road warriors and seasoned travelers",
+		"link": "https://travel.stackexchange.com",
+		"dataset": "travel.stackexchange.com.7z",
+		"size": "127.1M",
+		"safe_name": "travel"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/crypto/Img/icon-48.png",
+		"title": "Cryptography",
+		"description": "Q&A for software developers, mathematicians and others interested in cryptography",
+		"link": "https://crypto.stackexchange.com",
+		"dataset": "crypto.stackexchange.com.7z",
+		"size": "87.3M",
+		"safe_name": "cryptography"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/dsp/Img/icon-48.png",
+		"title": "Signal Processing",
+		"description": "Q&A for practitioners of the art and science of signal, image and video processing",
+		"link": "https://dsp.stackexchange.com",
+		"dataset": "dsp.stackexchange.com.7z",
+		"size": "69.8M",
+		"safe_name": "signal_processing"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/french/Img/icon-48.png",
+		"title": "French Language",
+		"description": "Q&A for students, teachers, and linguists wanting to discuss the finer points of the French language",
+		"link": "https://french.stackexchange.com",
+		"dataset": "french.stackexchange.com.7z",
+		"size": "38.8M",
+		"safe_name": "french_language"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/christianity/Img/icon-48.png",
+		"title": "Christianity",
+		"description": "Q&A for committed Christians, experts in Christianity and those interested in learning more",
+		"link": "https://christianity.stackexchange.com",
+		"dataset": "christianity.stackexchange.com.7z",
+		"size": "104.5M",
+		"safe_name": "christianity"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/bitcoin/Img/icon-48.png?v=f5a02f85db94",
+		"title": "Bitcoin",
+		"description": "Q&A for Bitcoin crypto-currency enthusiasts",
+		"link": "https://bitcoin.stackexchange.com",
+		"dataset": "bitcoin.stackexchange.com.7z",
+		"size": "60.4M",
+		"safe_name": "bitcoin"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/linguistics/Img/icon-48.png",
+		"title": "Linguistics",
+		"description": "Q&A for professional linguists and others with an interest in linguistic research and theory",
+		"link": "https://linguistics.stackexchange.com",
+		"dataset": "linguistics.stackexchange.com.7z",
+		"size": "33.0M",
+		"safe_name": "linguistics"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/hermeneutics/Img/icon-48.png",
+		"title": "Biblical Hermeneutics",
+		"description": "Q&A for professors, theologians, and those interested in exegetical analysis of biblical texts",
+		"link": "https://hermeneutics.stackexchange.com",
+		"dataset": "hermeneutics.stackexchange.com.7z",
+		"size": "96.8M",
+		"safe_name": "biblical_hermeneutics"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/history/Img/icon-48.png?v=f5a02f85db94",
+		"title": "History",
+		"description": "Q&A for historians and history buffs",
+		"link": "https://history.stackexchange.com",
+		"dataset": "history.stackexchange.com.7z",
+		"size": "84.5M",
+		"safe_name": "history"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/bricks/Img/icon-48.png",
+		"title": "Bricks",
+		"description": "Q&A for LEGO® and building block enthusiasts",
+		"link": "https://bricks.stackexchange.com",
+		"dataset": "bricks.stackexchange.com.7z",
+		"size": "9.6M",
+		"safe_name": "bricks"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/spanish/Img/icon-48.png?v=f5a02f85db94",
+		"title": "Spanish Language",
+		"description": "Q&A for linguists, teachers, students and Spanish language enthusiasts in general wanting to discuss the finer points of the language",
+		"link": "https://spanish.stackexchange.com",
+		"dataset": "spanish.stackexchange.com.7z",
+		"size": "30.9M",
+		"safe_name": "spanish_language"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/scicomp/Img/icon-48.png?v=f5a02f85db94",
+		"title": "Computational Science",
+		"description": "Q&A for scientists using computers to solve scientific problems",
+		"link": "https://scicomp.stackexchange.com",
+		"dataset": "scicomp.stackexchange.com.7z",
+		"size": "31.5M",
+		"safe_name": "computational_science"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/movies/Img/icon-48.png",
+		"title": "Movies & TV",
+		"description": "Q&A for movie and TV enthusiasts",
+		"link": "https://movies.stackexchange.com",
+		"dataset": "movies.stackexchange.com.7z",
+		"size": "71.8M",
+		"safe_name": "movies_tv"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/chinese/Img/icon-48.png?v=f5a02f85db94",
+		"title": "Chinese Language",
+		"description": "Q&A for students, teachers, and linguists wanting to discuss the finer points of the Chineselanguage",
+		"link": "https://chinese.stackexchange.com",
+		"dataset": "chinese.stackexchange.com.7z",
+		"size": "30.7M",
+		"safe_name": "chinese_language"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/biology/Img/icon-48.png?v=f5a02f85db94",
+		"title": "Biology",
+		"description": "Q&A for biology researchers, academics, and students",
+		"link": "https://biology.stackexchange.com",
+		"dataset": "biology.stackexchange.com.7z",
+		"size": "71.7M",
+		"safe_name": "biology"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/poker/Img/icon-48.png",
+		"title": "Poker",
+		"description": "Q&A for serious players and enthusiasts of poker",
+		"link": "https://poker.stackexchange.com",
+		"dataset": "poker.stackexchange.com.7z",
+		"size": "6.1M",
+		"safe_name": "poker"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/mathematica/Img/icon-48.png",
+		"title": "Mathematica",
+		"description": "Q&A for users of Wolfram Mathematica",
+		"link": "https://mathematica.stackexchange.com",
+		"dataset": "mathematica.stackexchange.com.7z",
+		"size": "255.8M",
+		"safe_name": "mathematica"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/psychology/Img/icon-48.png",
+		"title": "Psychology & Neuroscience",
+		"description": "Q&A for practitioners, researchers, and students in cognitive science, psychology, neuroscience, and psychiatry",
+		"link": "https://psychology.stackexchange.com",
+		"safe_name": "psychology_neuroscience"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/outdoors/Img/icon-48.png",
+		"title": "The Great Outdoors",
+		"description": "Q&A for people who love being outdoors enjoying nature and wilderness, and learning about the required skills and equipment",
+		"link": "https://outdoors.stackexchange.com",
+		"dataset": "outdoors.stackexchange.com.7z",
+		"size": "26.5M",
+		"safe_name": "the_great_outdoors"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/martialarts/Img/icon-48.png",
+		"title": "Martial Arts",
+		"description": "Q&A for students and teachers of all martial arts",
+		"link": "https://martialarts.stackexchange.com",
+		"dataset": "martialarts.stackexchange.com.7z",
+		"size": "11.5M",
+		"safe_name": "martial_arts"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/sports/Img/icon-48.png",
+		"title": "Sports",
+		"description": "Q&A for participants in team and individual sport activities",
+		"link": "https://sports.stackexchange.com",
+		"dataset": "sports.stackexchange.com.7z",
+		"size": "14.7M",
+		"safe_name": "sports"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/academia/Img/icon-48.png",
+		"title": "Academia",
+		"description": "Q&A for academics and those enrolled in higher education",
+		"link": "https://academia.stackexchange.com",
+		"dataset": "academia.stackexchange.com.7z",
+		"size": "151.0M",
+		"safe_name": "academia"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/cs/Img/icon-48.png",
+		"title": "Computer Science",
+		"description": "Q&A for students, researchers and practitioners of computer science",
+		"link": "https://cs.stackexchange.com",
+		"dataset": "bioacoustics.stackexchange.com.7z",
+		"size": "1.1M",
+		"safe_name": "computer_science"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/workplace/Img/icon-48.png",
+		"title": "The Workplace",
+		"description": "Q&A for members of the workforce navigating the professional setting",
+		"link": "https://workplace.stackexchange.com",
+		"dataset": "workplace.stackexchange.com.7z",
+		"size": "158.2M",
+		"safe_name": "the_workplace"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/chemistry/Img/icon-48.png",
+		"title": "Chemistry",
+		"description": "Q&A for scientists, academics, teachers, and students in the field of chemistry",
+		"link": "https://chemistry.stackexchange.com",
+		"dataset": "chemistry.stackexchange.com.7z",
+		"size": "105.6M",
+		"safe_name": "chemistry"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/chess/Img/icon-48.png",
+		"title": "Chess",
+		"description": "Q&A for serious players and enthusiasts of chess",
+		"link": "https://chess.stackexchange.com",
+		"dataset": "chess.stackexchange.com.7z",
+		"size": "28.7M",
+		"safe_name": "chess"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/raspberrypi/Img/icon-48.png",
+		"title": "Raspberry Pi",
+		"description": "Q&A for users and developers of hardware and software for Raspberry Pi",
+		"link": "https://raspberrypi.stackexchange.com",
+		"dataset": "raspberrypi.stackexchange.com.7z",
+		"size": "91.0M",
+		"safe_name": "raspberry_pi"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/russian/Img/icon-48.png?v=f5a02f85db94",
+		"title": "Russian Language",
+		"description": "Q&A for students, teachers, and linguists wanting to discuss the finer points of the Russian language",
+		"link": "https://russian.stackexchange.com",
+		"dataset": "russian.stackexchange.com.7z",
+		"size": "14.6M",
+		"safe_name": "russian_language"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/islam/Img/icon-48.png",
+		"title": "Islam",
+		"description": "Q&A for Muslims, experts in Islam, and those interested in learning more about Islam",
+		"link": "https://islam.stackexchange.com",
+		"dataset": "islam.stackexchange.com.7z",
+		"size": "47.1M",
+		"safe_name": "islam"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/salesforce/Img/icon-48.png",
+		"title": "Salesforce",
+		"description": "Q&A for Salesforce administrators, implementation experts, developers and anybody in-between",
+		"link": "https://salesforce.stackexchange.com",
+		"dataset": "salesforce.stackexchange.com.7z",
+		"size": "232.0M",
+		"safe_name": "salesforce"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/patents/Img/icon-48.png?v=f5a02f85db94",
+		"title": "Ask Patents",
+		"description": "Q&A for people interested in improving the patent system",
+		"link": "https://patents.stackexchange.com",
+		"dataset": "patents.stackexchange.com.7z",
+		"size": "11.0M",
+		"safe_name": "ask_patents"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/genealogy/Img/icon-48.png",
+		"title": "Genealogy & Family History",
+		"description": "Q&A for expert genealogists and people interested in genealogy or family history",
+		"link": "https://genealogy.stackexchange.com",
+		"dataset": "genealogy.stackexchange.com.7z",
+		"size": "14.1M",
+		"safe_name": "genealogy_family_history"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/robotics/Img/icon-48.png",
+		"title": "Robotics",
+		"description": "Q&A for professional robotic engineers, hobbyists, researchers and students",
+		"link": "https://robotics.stackexchange.com",
+		"dataset": "robotics.stackexchange.com.7z",
+		"size": "17.0M",
+		"safe_name": "robotics"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/expressionengine/Img/icon-48.png",
+		"title": "ExpressionEngine® Answers",
+		"description": "Q&A for administrators, end users, developers and designers for ExpressionEngine® CMS",
+		"link": "https://expressionengine.stackexchange.com",
+		"dataset": "expressionengine.stackexchange.com.7z",
+		"size": "18.0M",
+		"safe_name": "expressionengine_answers"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/politics/Img/icon-48.png",
+		"title": "Politics",
+		"description": "Q&A for people interested in governments, policies, and political processes",
+		"link": "https://politics.stackexchange.com",
+		"dataset": "politics.stackexchange.com.7z",
+		"size": "89.4M",
+		"safe_name": "politics"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/anime/Img/icon-48.png",
+		"title": "Anime & Manga",
+		"description": "Q&A for anime and manga fans",
+		"link": "https://anime.stackexchange.com",
+		"dataset": "anime.stackexchange.com.7z",
+		"size": "33.1M",
+		"safe_name": "anime_manga"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/magento/Img/icon-48.png?v=f5a02f85db94",
+		"title": "Magento",
+		"description": "Q&A for users of the Magento e-Commerce platform",
+		"link": "https://magento.stackexchange.com",
+		"dataset": "magento.stackexchange.com.7z",
+		"size": "193.5M",
+		"safe_name": "magento"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/ell/Img/icon-48.png",
+		"title": "English Language Learners",
+		"description": "Q&A for speakers of other languages learning English",
+		"link": "https://ell.stackexchange.com",
+		"dataset": "ell.stackexchange.com.7z",
+		"size": "185.7M",
+		"safe_name": "english_language_learners"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/sustainability/Img/icon-48.png",
+		"title": "Sustainable Living",
+		"description": "Q&A for folks dedicated to a lifestyle that can be maintained indefinitely without depleting available resources",
+		"link": "https://sustainability.stackexchange.com",
+		"dataset": "sustainability.stackexchange.com.7z",
+		"size": "8.4M",
+		"safe_name": "sustainable_living"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/tridion/Img/icon-48.png?v=f5a02f85db94",
+		"title": "Tridion",
+		"description": "Q&A for Tridion developers and administrators",
+		"link": "https://tridion.stackexchange.com",
+		"dataset": "tridion.stackexchange.com.7z",
+		"size": "15.2M",
+		"safe_name": "tridion"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/reverseengineering/Img/icon-48.png",
+		"title": "Reverse Engineering",
+		"description": "Q&A for researchers and developers who explore the principles of a system through analysis of its structure, function, and operation",
+		"link": "https://reverseengineering.stackexchange.com",
+		"dataset": "reverseengineering.stackexchange.com.7z",
+		"size": "24.7M",
+		"safe_name": "reverse_engineering"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/networkengineering/Img/icon-48.png",
+		"title": "Network Engineering",
+		"description": "Q&A for network engineers",
+		"link": "https://networkengineering.stackexchange.com",
+		"dataset": "networkengineering.stackexchange.com.7z",
+		"size": "42.1M",
+		"safe_name": "network_engineering"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/opendata/Img/icon-48.png",
+		"title": "Open Data",
+		"description": "Q&A for developers and researchers interested in open data",
+		"link": "https://opendata.stackexchange.com",
+		"dataset": "opendata.stackexchange.com.7z",
+		"size": "11.3M",
+		"safe_name": "open_data"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/freelancing/Img/icon-48.png",
+		"title": "Freelancing",
+		"description": "Q&A for  self-employed and freelance workers",
+		"link": "https://freelancing.stackexchange.com",
+		"dataset": "freelancing.stackexchange.com.7z",
+		"size": "7.7M",
+		"safe_name": "freelancing"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/blender/Img/icon-48.png?v=f5a02f85db94",
+		"title": "Blender",
+		"description": "Q&A for people who use Blender to create 3D graphics, animations, or games",
+		"link": "https://blender.stackexchange.com",
+		"dataset": "blender.stackexchange.com.7z",
+		"size": "154.5M",
+		"safe_name": "blender"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/mathoverflow/Img/icon-48.png",
+		"title": "MathOverflow",
+		"description": "Q&A for professional mathematicians",
+		"link": "https://mathoverflow.net",
+		"dataset": "mathoverflow.net.7z",
+		"size": "428.6M",
+		"safe_name": "mathoverflow"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/space/Img/icon-48.png",
+		"title": "Space Exploration",
+		"description": "Q&A for spacecraft operators, scientists, engineers, and enthusiasts",
+		"link": "https://space.stackexchange.com",
+		"dataset": "space.stackexchange.com.7z",
+		"size": "67.3M",
+		"safe_name": "space_exploration"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/sound/Img/icon-48.png",
+		"title": "Sound Design",
+		"description": "Q&A for sound engineers, producers, editors, and enthusiasts",
+		"link": "https://sound.stackexchange.com",
+		"dataset": "sound.stackexchange.com.7z",
+		"size": "23.7M",
+		"safe_name": "sound_design"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/astronomy/Img/icon-48.png",
+		"title": "Astronomy",
+		"description": "Q&A for astronomers and astrophysicists",
+		"link": "https://astronomy.stackexchange.com",
+		"dataset": "astronomy.stackexchange.com.7z",
+		"size": "40.7M",
+		"safe_name": "astronomy"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/tor/Img/icon-48.png",
+		"title": "Tor",
+		"description": "Q&A for researchers, developers, and users of Tor",
+		"link": "https://tor.stackexchange.com",
+		"dataset": "tor.stackexchange.com.7z",
+		"size": "11.1M",
+		"safe_name": "tor"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/pets/Img/icon-48.png",
+		"title": "Pets",
+		"description": "Q&A for pet owners, caretakers, breeders, veterinarians, and trainers",
+		"link": "https://pets.stackexchange.com",
+		"dataset": "pets.stackexchange.com.7z",
+		"size": "22.5M",
+		"safe_name": "pets"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/ham/Img/icon-48.png",
+		"title": "Amateur Radio",
+		"description": "Q&A for amateur radio enthusiasts",
+		"link": "https://ham.stackexchange.com",
+		"dataset": "ham.stackexchange.com.7z",
+		"size": "15.1M",
+		"safe_name": "amateur_radio"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/italian/Img/icon-48.png?v=f5a02f85db94",
+		"title": "Italian Language",
+		"description": "Q&A for students, teachers, and linguists wanting to discuss the finer points of the Italian language",
+		"link": "https://italian.stackexchange.com",
+		"dataset": "italian.stackexchange.com.7z",
+		"size": "9.7M",
+		"safe_name": "italian_language"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/br/Img/icon-48.png",
+		"title": "Stack Overflow em Português",
+		"description": "Perguntas e respostas para programadores profissionais e entusiastas",
+		"link": "https://pt.stackoverflow.com",
+		"dataset": "pt.stackoverflow.com.7z",
+		"size": "433.4M",
+		"safe_name": "stack_overflow_em_portugu_s"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/aviation/Img/icon-48.png",
+		"title": "Aviation",
+		"description": "Q&A for aircraft pilots, mechanics, and enthusiasts",
+		"link": "https://aviation.stackexchange.com",
+		"dataset": "aviation.stackexchange.com.7z",
+		"size": "87.6M",
+		"safe_name": "aviation"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/ebooks/Img/icon-48.png",
+		"title": "Ebooks",
+		"description": "Q&A for ebook publishers and readers",
+		"link": "https://ebooks.stackexchange.com",
+		"dataset": "ebooks.stackexchange.com.7z",
+		"size": "4.1M",
+		"safe_name": "ebooks"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/alcohol/Img/icon-48.png?v=f5a02f85db94",
+		"title": "Beer, Wine & Spirits",
+		"description": "Q&A for alcoholic beverage aficionados and those interested in beer, wine, or spirits",
+		"link": "https://alcohol.stackexchange.com",
+		"safe_name": "beer_wine_spirits"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/softwarerecs/Img/icon-48.png",
+		"title": "Software Recommendations",
+		"description": "Q&A for people seeking specific software recommendations",
+		"link": "https://softwarerecs.stackexchange.com",
+		"dataset": "softwarerecs.stackexchange.com.7z",
+		"size": "43.7M",
+		"safe_name": "software_recommendations"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/arduino/Img/icon-48.png?v=f5a02f85db94",
+		"title": "Arduino",
+		"description": "Q&A for developers of open-source hardware and software that is compatible with Arduino",
+		"link": "https://arduino.stackexchange.com",
+		"dataset": "arduino.stackexchange.com.7z",
+		"size": "69.1M",
+		"safe_name": "arduino"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/expatriates/Img/icon-48.png",
+		"title": "Expatriates",
+		"description": "Q&A for people living abroad on a long-term basis",
+		"link": "https://expatriates.stackexchange.com",
+		"dataset": "expatriates.stackexchange.com.7z",
+		"size": "14.4M",
+		"safe_name": "expatriates"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/matheducators/Img/icon-48.png",
+		"title": "Mathematics Educators",
+		"description": "Q&A for those involved in the field of teaching mathematics",
+		"link": "https://matheducators.stackexchange.com",
+		"dataset": "matheducators.stackexchange.com.7z",
+		"size": "20.2M",
+		"safe_name": "mathematics_educators"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/earthscience/Img/icon-48.png",
+		"title": "Earth Science",
+		"description": "Q&A for those interested in the geology, meteorology, oceanography, and environmental sciences",
+		"link": "https://earthscience.stackexchange.com",
+		"dataset": "earthscience.stackexchange.com.7z",
+		"size": "19.0M",
+		"safe_name": "earth_science"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/joomla/Img/icon-48.png",
+		"title": "Joomla",
+		"description": "Q&A for Joomla! administrators, users, developers and designers",
+		"link": "https://joomla.stackexchange.com",
+		"dataset": "joomla.stackexchange.com.7z",
+		"size": "14.8M",
+		"safe_name": "joomla"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/datascience/Img/icon-48.png",
+		"title": "Data Science",
+		"description": "Q&A for Data science professionals, Machine Learning specialists, and those interested in learning more about the field",
+		"link": "https://datascience.stackexchange.com",
+		"dataset": "datascience.stackexchange.com.7z",
+		"size": "73.7M",
+		"safe_name": "data_science"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/puzzling/Img/icon-48.png",
+		"title": "Puzzling",
+		"description": "Q&A for those who create, solve, and study puzzles",
+		"link": "https://puzzling.stackexchange.com",
+		"dataset": "puzzling.stackexchange.com.7z",
+		"size": "101.4M",
+		"safe_name": "puzzling"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/craftcms/Img/icon-48.png",
+		"title": "Craft CMS",
+		"description": "Q&A for administrators, end users, developers and designers for Craft CMS",
+		"link": "https://craftcms.stackexchange.com",
+		"dataset": "craftcms.stackexchange.com.7z",
+		"size": "20.9M",
+		"safe_name": "craft_cms"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/buddhism/Img/icon-48.png",
+		"title": "Buddhism",
+		"description": "Q&A for people practicing or interested in Buddhist philosophy, teaching, and practice",
+		"link": "https://buddhism.stackexchange.com",
+		"dataset": "buddhism.stackexchange.com.7z",
+		"size": "45.8M",
+		"safe_name": "buddhism"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/hinduism/Img/icon-48.png",
+		"title": "Hinduism",
+		"description": "Q&A for followers of the Hindu religion and those interested in learning more about Hinduism",
+		"link": "https://hinduism.stackexchange.com",
+		"dataset": "hinduism.stackexchange.com.7z",
+		"size": "62.0M",
+		"safe_name": "hinduism"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/communitybuilding/Img/icon-48.png",
+		"title": "Community Building",
+		"description": "Q&A for community managers, administrators, and moderators",
+		"link": "https://communitybuilding.stackexchange.com",
+		"safe_name": "community_building"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/worldbuilding/Img/icon-48.png",
+		"title": "Worldbuilding",
+		"description": "Q&A for writers/artists using science, geography and culture to construct imaginary worlds and settings",
+		"link": "https://worldbuilding.stackexchange.com",
+		"dataset": "worldbuilding.stackexchange.com.7z",
+		"size": "300.9M",
+		"safe_name": "worldbuilding"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/ja/Img/icon-48.png",
+		"title": "スタック・オーバーフロー",
+		"description": "熱狂的でプロフェッショナルなプログラマーのためのQ&A",
+		"link": "https://ja.stackoverflow.com",
+		"dataset": "ja.stackoverflow.com.7z",
+		"size": "70.0M",
+		"safe_name": "_"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/emacs/Img/icon-48.png",
+		"title": "Emacs",
+		"description": "Q&A for those using, extending or developing Emacs",
+		"link": "https://emacs.stackexchange.com",
+		"dataset": "emacs.stackexchange.com.7z",
+		"size": "48.2M",
+		"safe_name": "emacs"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/hsm/Img/icon-48.png",
+		"title": "History of Science and Mathematics",
+		"description": "Q&A for people interested in the history and origins of science and mathematics",
+		"link": "https://hsm.stackexchange.com",
+		"dataset": "hsm.stackexchange.com.7z",
+		"size": "15.0M",
+		"safe_name": "history_of_science_and_mathematics"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/economics/Img/icon-48.png",
+		"title": "Economics",
+		"description": "Q&A for those who study, teach, research and apply economics and econometrics",
+		"link": "https://economics.stackexchange.com",
+		"dataset": "economics.stackexchange.com.7z",
+		"size": "35.3M",
+		"safe_name": "economics"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/lifehacks/Img/icon-48.png",
+		"title": "Lifehacks",
+		"description": "Q&A for people looking to bypass life's everyday problems with simple tricks",
+		"link": "https://lifehacks.stackexchange.com",
+		"dataset": "lifehacks.stackexchange.com.7z",
+		"size": "11.7M",
+		"safe_name": "lifehacks"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/engineering/Img/icon-48.png",
+		"title": "Engineering",
+		"description": "Q&A for professionals and students of engineering",
+		"link": "https://engineering.stackexchange.com",
+		"dataset": "engineering.stackexchange.com.7z",
+		"size": "34.3M",
+		"safe_name": "engineering"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/coffee/Img/icon-48.png",
+		"title": "Coffee",
+		"description": "Q&A for people interested in all aspects of producing and consuming coffee",
+		"link": "https://coffee.stackexchange.com",
+		"dataset": "coffee.stackexchange.com.7z",
+		"size": "4.3M",
+		"safe_name": "coffee"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/vi/Img/icon-48.png",
+		"title": "Vi and Vim",
+		"description": "Q&A for people using the vi and Vim families of text editors",
+		"link": "https://vi.stackexchange.com",
+		"dataset": "vi.stackexchange.com.7z",
+		"size": "28.9M",
+		"safe_name": "vi_and_vim"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/musicfans/Img/icon-48.png",
+		"title": "Music Fans",
+		"description": "Q&A for music historians, critics, and fans",
+		"link": "https://musicfans.stackexchange.com",
+		"dataset": "musicfans.stackexchange.com.7z",
+		"size": "6.1M",
+		"safe_name": "music_fans"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/woodworking/Img/icon-48.png",
+		"title": "Woodworking",
+		"description": "Q&A for professional and amateur woodworkers",
+		"link": "https://woodworking.stackexchange.com",
+		"dataset": "woodworking.stackexchange.com.7z",
+		"size": "12.1M",
+		"safe_name": "woodworking"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/civicrm/Img/icon-48.png?v=f5a02f85db94",
+		"title": "CiviCRM",
+		"description": "Q&A for administrators and users of the CiviCRM  Constituent Relationship Management software",
+		"link": "https://civicrm.stackexchange.com",
+		"dataset": "civicrm.stackexchange.com.7z",
+		"size": "20.3M",
+		"safe_name": "civicrm"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/medicalsciences/Img/icon-48.png",
+		"title": "Medical Sciences",
+		"description": "Q&A for professionals in medical and allied health fields, students of those professions, related academics, and others with a sound understanding of medicine and healthcare-related sciences",
+		"link": "https://medicalsciences.stackexchange.com",
+		"safe_name": "medical_sciences"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/ru/Img/icon-48.png",
+		"title": "Stack Overflow на русском",
+		"description": "Вопросы и ответы для программистов",
+		"link": "https://ru.stackoverflow.com",
+		"dataset": "ru.stackoverflow.com.7z",
+		"size": "874.0M",
+		"safe_name": "stack_overflow_"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/rus/Img/icon-48.png",
+		"title": "Русский язык",
+		"description": "Cайт вопросов и ответов для лингвистов и энтузиастов русского языка",
+		"link": "https://rus.stackexchange.com",
+		"dataset": "rus.stackexchange.com.7z",
+		"size": "43.3M",
+		"safe_name": "_"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/mythology/Img/icon-48.png",
+		"title": "Mythology & Folklore",
+		"description": "Q&A for enthusiasts and scholars of mythology and folklore",
+		"link": "https://mythology.stackexchange.com",
+		"dataset": "mythology.stackexchange.com.7z",
+		"size": "8.0M",
+		"safe_name": "mythology_folklore"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/law/Img/icon-48.png",
+		"title": "Law",
+		"description": "Q&A for legal professionals, students, and others with experience or interest in law",
+		"link": "https://law.stackexchange.com",
+		"dataset": "law.stackexchange.com.7z",
+		"size": "76.3M",
+		"safe_name": "law"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/opensource/Img/icon-48.png",
+		"title": "Open Source",
+		"description": "Q&A for people organizing, marketing or licensing open source development projects",
+		"link": "https://opensource.stackexchange.com",
+		"dataset": "opensource.stackexchange.com.7z",
+		"size": "13.8M",
+		"safe_name": "open_source"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/elementaryos/Img/icon-48.png",
+		"title": "elementary OS",
+		"description": "Q&A for developers and users of elementary OS and applications",
+		"link": "https://elementaryos.stackexchange.com",
+		"dataset": "elementaryos.stackexchange.com.7z",
+		"size": "13.5M",
+		"safe_name": "elementary_os"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/portuguese/Img/icon-48.png",
+		"title": "Portuguese Language",
+		"description": "Q&A for linguists, teachers and learners wanting to discuss the finer points of the Portuguese language",
+		"link": "https://portuguese.stackexchange.com",
+		"dataset": "portuguese.stackexchange.com.7z",
+		"size": "9.6M",
+		"safe_name": "portuguese_language"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/computergraphics/Img/icon-48.png",
+		"title": "Computer Graphics",
+		"description": "Q&A for computer graphics researchers and programmers",
+		"link": "https://computergraphics.stackexchange.com",
+		"dataset": "computergraphics.stackexchange.com.7z",
+		"size": "10.4M",
+		"safe_name": "computer_graphics"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/hardwarerecs/Img/icon-48.png",
+		"title": "Hardware Recommendations",
+		"description": "Q&A for people seeking specific hardware recommendations",
+		"link": "https://hardwarerecs.stackexchange.com",
+		"dataset": "hardwarerecs.stackexchange.com.7z",
+		"size": "9.2M",
+		"safe_name": "hardware_recommendations"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/es/Img/icon-48.png",
+		"title": "Stack Overflow en español",
+		"description": "Preguntas y respuestas para programadores y profesionales de la informática",
+		"link": "https://es.stackoverflow.com",
+		"dataset": "es.stackoverflow.com.7z",
+		"size": "480.8M",
+		"safe_name": "stack_overflow_en_espa_ol"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/3dprinting/Img/icon-48.png",
+		"title": "3D Printing",
+		"description": "Q&A for 3D printing enthusiasts",
+		"link": "https://3dprinting.stackexchange.com",
+		"dataset": "3dprinting.stackexchange.com.7z",
+		"size": "16.1M",
+		"safe_name": "3d_printing"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/ethereum/Img/icon-48.png",
+		"title": "Ethereum",
+		"description": "Q&A for users of Ethereum, the decentralized application platform and smart contract enabled blockchain",
+		"link": "https://ethereum.stackexchange.com",
+		"dataset": "ethereum.stackexchange.com.7z",
+		"size": "84.9M",
+		"safe_name": "ethereum"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/latin/Img/icon-48.png",
+		"title": "Latin Language",
+		"description": "Q&A for linguists, teachers, and students wanting to discuss the finer points of the Latin language",
+		"link": "https://latin.stackexchange.com",
+		"dataset": "latin.stackexchange.com.7z",
+		"size": "18.0M",
+		"safe_name": "latin_language"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/languagelearning/Img/icon-48.png",
+		"title": "Language Learning",
+		"description": "Q&A for students, teachers, polyglots, and anyone interested in the techniques of second-language acquisition",
+		"link": "https://languagelearning.stackexchange.com",
+		"dataset": "languagelearning.stackexchange.com.7z",
+		"size": "4.3M",
+		"safe_name": "language_learning"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/retrocomputing/Img/icon-48.png",
+		"title": "Retrocomputing",
+		"description": "Q&A for vintage-computer hobbyists interested in restoring, preserving, and using the classic computer and gaming systems of yesteryear",
+		"link": "https://retrocomputing.stackexchange.com",
+		"dataset": "retrocomputing.stackexchange.com.7z",
+		"size": "32.2M",
+		"safe_name": "retrocomputing"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/crafts/Img/icon-48.png",
+		"title": "Arts & Crafts",
+		"description": "Q&A for artists and crafters",
+		"link": "https://crafts.stackexchange.com",
+		"dataset": "crafts.stackexchange.com.7z",
+		"size": "7.0M",
+		"safe_name": "arts_crafts"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/korean/Img/icon-48.png",
+		"title": "Korean Language",
+		"description": "Q&A for linguists, teachers and students of the Korean language",
+		"link": "https://korean.stackexchange.com",
+		"dataset": "korean.stackexchange.com.7z",
+		"size": "4.6M",
+		"safe_name": "korean_language"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/monero/Img/icon-48.png",
+		"title": "Monero",
+		"description": "Q&A for developers and users of the secure, private and untraceable cryptocurrency Monero",
+		"link": "https://monero.stackexchange.com",
+		"dataset": "monero.stackexchange.com.7z",
+		"size": "7.8M",
+		"safe_name": "monero"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/ai/Img/icon-48.png",
+		"title": "Artificial Intelligence",
+		"description": "Q&A for people interested in conceptual questions about life and challenges in a world where \"cognitive\" functions can be mimicked in purely digital environment",
+		"link": "https://ai.stackexchange.com",
+		"dataset": "ai.stackexchange.com.7z",
+		"size": "28.8M",
+		"safe_name": "artificial_intelligence"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/esperanto/Img/icon-48.png",
+		"title": "Esperanto Language",
+		"description": "Q&A for teachers and students of the Esperanto language",
+		"link": "https://esperanto.stackexchange.com",
+		"dataset": "esperanto.stackexchange.com.7z",
+		"size": "3.9M",
+		"safe_name": "esperanto_language"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/sitecore/Img/icon-48.png",
+		"title": "Sitecore",
+		"description": "Q&A for developers and end users of the Sitecore CMS and multichannel marketing software",
+		"link": "https://sitecore.stackexchange.com",
+		"dataset": "sitecore.stackexchange.com.7z",
+		"size": "23.8M",
+		"safe_name": "sitecore"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/iot/Img/icon-48.png",
+		"title": "Internet of Things",
+		"description": "Q&A for builders and users of networked sensors and control devices in the contexts of smart homes, industry automation, or environmental sensors",
+		"link": "https://iot.stackexchange.com",
+		"dataset": "iot.stackexchange.com.7z",
+		"size": "6.5M",
+		"safe_name": "internet_of_things"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/literature/Img/icon-48.png",
+		"title": "Literature",
+		"description": "Q&A for scholars and enthusiasts of literature",
+		"link": "https://literature.stackexchange.com",
+		"dataset": "literature.stackexchange.com.7z",
+		"size": "22.1M",
+		"safe_name": "literature"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/vegetarianism/Img/icon-48.png",
+		"title": "Veganism & Vegetarianism",
+		"description": "Q&A for those committed to a vegan or vegetarian lifestyle and anyone interested in learning more",
+		"link": "https://vegetarianism.stackexchange.com",
+		"dataset": "vegetarianism.stackexchange.com.7z",
+		"size": "2.8M",
+		"safe_name": "veganism_vegetarianism"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/ukrainian/Img/icon-48.png",
+		"title": "Ukrainian Language",
+		"description": "Q&A for linguists, teachers and students of the Ukrainian language",
+		"link": "https://ukrainian.stackexchange.com",
+		"dataset": "ukrainian.stackexchange.com.7z",
+		"size": "7.5M",
+		"safe_name": "ukrainian_language"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/devops/Img/icon-48.png",
+		"title": "DevOps",
+		"description": "Q&A for software engineers working on automated testing, continuous delivery, service integration and monitoring, and building SDLC infrastructure",
+		"link": "https://devops.stackexchange.com",
+		"dataset": "devops.stackexchange.com.7z",
+		"size": "13.4M",
+		"safe_name": "devops"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/bioinformatics/Img/icon-48.png",
+		"title": "Bioinformatics",
+		"description": "Q&A for researchers, developers, students, teachers, and end users interested in bioinformatics",
+		"link": "https://bioinformatics.stackexchange.com",
+		"dataset": "bioinformatics.stackexchange.com.7z",
+		"size": "13.7M",
+		"safe_name": "bioinformatics"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/cseducators/Img/icon-48.png",
+		"title": "Computer Science Educators",
+		"description": "Q&A for those involved in the field of teaching Computer Science",
+		"link": "https://cseducators.stackexchange.com",
+		"dataset": "cseducators.stackexchange.com.7z",
+		"size": "8.7M",
+		"safe_name": "computer_science_educators"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/interpersonal/Img/icon-48.png",
+		"title": "Interpersonal Skills",
+		"description": "Q&A for people looking to improve their interpersonal communication skills",
+		"link": "https://interpersonal.stackexchange.com",
+		"dataset": "interpersonal.stackexchange.com.7z",
+		"size": "30.7M",
+		"safe_name": "interpersonal_skills"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/iota/Img/icon-48.png",
+		"title": "Iota",
+		"description": "Q&A for users of Iota, the open-source cryptocurrency for IoT that does not use a blockchain",
+		"link": "https://iota.stackexchange.com",
+		"dataset": "iota.stackexchange.com.7z",
+		"size": "2.1M",
+		"safe_name": "iota"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/stellar/Img/icon-48.png?v=f5a02f85db94",
+		"title": "Stellar",
+		"description": "Q&A for developers and users of Stellar and the Stellar Distributed Exchange",
+		"link": "https://stellar.stackexchange.com",
+		"dataset": "stellar.stackexchange.com.7z",
+		"size": "2.6M",
+		"safe_name": "stellar"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/conlang/Img/icon-48.png?v=f5a02f85db94",
+		"title": "Constructed Languages",
+		"description": "Q&A for designers and users of artificial or invented languages, consciously developed instead of having developed naturally",
+		"link": "https://conlang.stackexchange.com",
+		"dataset": "conlang.stackexchange.com.7z",
+		"size": "1.9M",
+		"safe_name": "constructed_languages"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/quantumcomputing/Img/icon-48.png",
+		"title": "Quantum Computing",
+		"description": "Q&A for engineers, scientists, programmers, and computing professionals interested in quantum computing",
+		"link": "https://quantumcomputing.stackexchange.com",
+		"dataset": "quantumcomputing.stackexchange.com.7z",
+		"size": "21.1M",
+		"safe_name": "quantum_computing"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/eosio/Img/icon-48.png",
+		"title": "EOS.IO",
+		"description": "Q&A for users and developers of distributed applications built on top of the blockchain operating system, EOS.IO",
+		"link": "https://eosio.stackexchange.com",
+		"dataset": "eosio.stackexchange.com.7z",
+		"size": "3.9M",
+		"safe_name": "eos_io"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/tezos/Img/icon-48.png",
+		"title": "Tezos",
+		"description": "Q&A for users, experts, and developers of the Tezos blockchain project",
+		"link": "https://tezos.stackexchange.com",
+		"dataset": "tezos.stackexchange.com.7z",
+		"size": "3.1M",
+		"safe_name": "tezos"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/or/Img/icon-48.png",
+		"title": "Operations Research",
+		"description": "Q&A for operations research and analytics professionals, educators, and students",
+		"link": "https://or.stackexchange.com",
+		"dataset": "or.stackexchange.com.7z",
+		"size": "9.3M",
+		"safe_name": "operations_research"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/drones/Img/icon-48.png",
+		"title": "Drones and Model Aircraft",
+		"description": "Q&A for experienced flyers, pilots, and builders of drones and model aircraft",
+		"link": "https://drones.stackexchange.com",
+		"dataset": "drones.stackexchange.com.7z",
+		"size": "2.2M",
+		"safe_name": "drones_and_model_aircraft"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/mattermodeling/Img/icon-48.png",
+		"title": "Matter Modeling",
+		"description": "Q&A for materials modelers and data scientists",
+		"link": "https://mattermodeling.stackexchange.com",
+		"safe_name": "matter_modeling"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/cardano/Img/icon-48.png?v=f5a02f85db94",
+		"title": "Cardano",
+		"description": "Q&A for users and developers of the Cardano cryptocurrency ecosystem",
+		"link": "https://cardano.stackexchange.com",
+		"dataset": "cardano.stackexchange.com.7z",
+		"size": "4.4M",
+		"safe_name": "cardano"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/proofassistants/Img/icon-48.png",
+		"title": "Proof Assistants",
+		"description": "Q&A for mathematicians and computer scientists who develop and use proof assistants",
+		"link": "https://proofassistants.stackexchange.com",
+		"dataset": "proofassistants.stackexchange.com.7z",
+		"size": "2.1M",
+		"safe_name": "proof_assistants"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/substrate/Img/icon-48.png",
+		"title": "Substrate and Polkadot",
+		"description": "Q&A for developers building blockchains with the Substrate SDK",
+		"link": "https://substrate.stackexchange.com",
+		"dataset": "substrate.stackexchange.com.7z",
+		"size": "4.5M",
+		"safe_name": "substrate_and_polkadot"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/bioacoustics/Img/icon-48.png",
+		"title": "Bioacoustics",
+		"description": "Q&A for people interested in the studies of non-human animal sounds and the impacts of sounds on animals",
+		"link": "https://bioacoustics.stackexchange.com",
+		"dataset": "bioacoustics.stackexchange.com.7z",
+		"size": "1.1M",
+		"safe_name": "bioacoustics"
+	},
+	{
+		"logo": "https://cdn.sstatic.net/Sites/solana/Img/icon-48.png",
+		"title": "Solana",
+		"description": "Q&A for Solana software users and developers",
+		"link": "https://solana.stackexchange.com",
+		"dataset": "solana.stackexchange.com.7z",
+		"size": "2.7M",
+		"safe_name": "solana"
+	}
+]
