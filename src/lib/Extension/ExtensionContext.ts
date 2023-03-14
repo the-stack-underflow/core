@@ -63,6 +63,21 @@ export class ExtensionContext {
 		return lock;
 	}
 
+	public getLockedConfiguration(): LockFile["settings"] {
+		const lock = GetLockFile();
+
+		if (!lock.hasOwnProperty("settings")) {
+			lock["settings"] = { postgres: {
+				host: "",
+				port: "",
+				username: "",
+				password: ""
+			}};
+		}
+
+		return lock["settings"];
+	}
+
 	public getPersistentLocation(): string {
 		// If the persistent folder for this id does not exist already, create it.
 		const dir = path.join(__dirname, "./persistent/", this.id);

@@ -1,11 +1,14 @@
 ---
 import { Settings} from "../components/Settings";
 import Layout from "../layouts/Layout.astro";
+import { GetLockFile } from "../lib/Lock";
+
+const lockFile = GetLockFile();
 ---
 
 <Layout title="Settings">
 	<main class="w-full p-6">
 		<h1>Settings</h1>
-		<Settings client:only></Settings>
+		<Settings lock={lockFile} client:only></Settings>
 	</main>
 </Layout>

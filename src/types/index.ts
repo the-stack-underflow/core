@@ -67,6 +67,16 @@ export interface LockFile {
 
 	// An array of plugins that were installed
 	plugins: Record<string, Plugin>;
+
+	// An object containing all base settings.
+	settings: {
+		postgres: {
+			host: string,
+			username: string,
+			password: string,
+			port: string
+		}
+	};
 }
 
 export interface ViewConfig {

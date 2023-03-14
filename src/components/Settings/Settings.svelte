@@ -1,14 +1,15 @@
 <script lang="ts">
 	import { addMessage } from "../MessageHandler";
   import { WebSocketClient } from "../../lib/BrowserSocket";
-  import type { Site } from "../../lib/types";
+	import type { Site } from "~/types/index";
+	import type { LockFile } from "~/types/index";
 	import Card from "../Card.svelte";
   import Modal from "../Modal.svelte";
   import ProgressBar from "../ProgressBar.svelte";
 	import { Tabs, TabList, TabPanel, Tab } from "../Tabs";
-
 	import Sites from "./stack-exchange-sites.json";
 
+	export let lock: LockFile;
 	const SiteArray: Site[] = Sites as Site[];
 
 	async function toggleInstalled(site: Site, active: boolean) {
@@ -129,6 +130,32 @@
 			console.log(data)
 		})
 	})
+
+	let postgresHost: string = lock.settings.postgres.host;
+	let postgresUsername: string = lock.settings.postgres.username;
+	let postgresPassword: string = lock.settings.postgres.password;
+	let postgresPort: string = lock.settings.postgres.port;
+
+	async function saveSettings() {
+		fetch("/api/settings", {
+			method: "POST",
+			body: JSON.stringify({
+				postgres: {
+					host: postgresHost,
+					username: postgresUsername,
+					password: postgresPassword,
+					port: postgresPort
+				}
+			})
+		}).then(response => response.json()).then(json => {
+			if (json.success == true) {
+				addMessage({
+					type: "success",
+					text: "Successfully updated postgres configuration!"
+				})
+			}
+		})
+	}
 </script>
 
 <Tabs>
@@ -137,6 +164,7 @@
 		<Tab>Plugins</Tab>
 		<Tab>Datasets</Tab>
 		<Tab>Downloads</Tab>
+		<Tab>Configuration</Tab>
 	</TabList>
 	<TabPanel>
 		<h2>Integrations and connected apps</h2>
@@ -148,7 +176,7 @@
 				<Tab>Productivity</Tab>
 			</TabList>
 			<TabPanel>
-				<div class="grid grid-cols-3 py-4 gap-4">
+				<div class="grid grid-cols-1 py-4 gap-4 md:grid-cols-2 xl:grid-cols-3">
 					<Card link="/integrations/gpt-2" button="View Integration" description="GPT-2 offline aids coding by integrating OpenAI's language model to generate code snippets and suggestions based on natural language input." title="GPT-2" icon="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/ChatGPT_logo.svg/1200px-ChatGPT_logo.svg.png"></Card>
 					<Card link="/integrations/" button="View Integration" description="The documentation downloader plugin allows easy access to comprehensive documentation for various programming languages, saving time and increasing productivity." title="Documentation" icon="https://static.thenounproject.com/png/390336-200.png"></Card>
 					<Card link="/integrations/" button="View Integration" description="The documentation downloader plugin allows easy access to comprehensive documentation for various programming languages, saving time and increasing productivity." title="Svelte Docs" icon="https://static.thenounproject.com/png/390336-200.png"></Card>
@@ -179,7 +207,7 @@
 				<Tab>Productivity</Tab>
 			</TabList>
 			<TabPanel>
-				<div class="grid grid-cols-3 py-4 gap-4">
+				<div class="grid grid-cols-1 py-4 gap-4 md:grid-cols-2 xl:grid-cols-3">
 					{#each SiteArray as site}
 					<Card link={site.link} onToggleSwitch={(active) => toggleInstalled(site, active)} button="View Source" description={site.description + " - " + site.size} title={site.title} icon={site.logo}></Card>
 					{/each}
@@ -206,6 +234,33 @@
 					{/if}
 				</Card>
 			{/each}
+		</div>
+	</TabPanel>
+	<TabPanel>
+		<p>Configure every last bit of StackUnderflow.</p>
+		<h2>Postgres Configuration</h2>
+		<div class="flex flex-col gap-4">
+			<div class="flex flex-row gap-4">
+				<div class="flex flex-col">
+					<label for="username">Username</label>
+					<input bind:value={postgresUsername} id="username" type="text" class="border rounded-lg text-lg px-2 py-1 outline-none" placeholder="MyUsername">
+				</div>
+				<div class="flex flex-col">
+					<label for="password">Password</label>
+					<input bind:value={postgresPassword} id="password" type="password" class="border rounded-lg text-lg px-2 py-1 outline-none" placeholder="*******">
+				</div>
+			</div>
+			<div class="flex flex-row gap-4">
+				<div class="flex flex-col">
+					<label for="host">Host</label>
+					<input bind:value={postgresHost} id="host" type="text" class="border rounded-lg text-lg px-2 py-1 outline-none" placeholder="localhost">
+				</div>
+				<div class="flex flex-col">
+					<label for="port">Port</label>
+					<input bind:value={postgresPort} id="port" type="text" class="border rounded-lg text-lg px-2 py-1 outline-none" placeholder="5432">
+				</div>
+			</div>
+			<button on:click={saveSettings} class="bg-violet-600 text-white font-medium rounded-lg px-4 py-2 w-fit hover:bg-violet-700 transition-colors border border-violet-900">Save</button>
 		</div>
 	</TabPanel>
 </Tabs>

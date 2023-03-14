@@ -21,7 +21,7 @@
 	messages.subscribe((value) => localMessages = value)
 </script>
 
-<div class="fixed left-[120px] bottom-8">
+<div class="fixed left-[120px] bottom-8 gap-4 flex flex-col">
 	{#each localMessages as message}
 		<Message type={message.type} text={message.text}></Message>
 	{/each}
