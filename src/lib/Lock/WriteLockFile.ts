@@ -5,7 +5,7 @@ import * as fs from "fs";
 import * as path from "path";
 
 export function WriteLockFile(content: LockFile) {
-	const location = path.join(__dirname, "persistent/lockfile.json");
+	const location = path.join(__dirname, "../persistent/lockfile.json");
 	if (!fs.existsSync(location)) {
 		CreateLockFile(location);
 	}

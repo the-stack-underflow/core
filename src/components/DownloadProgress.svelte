@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { WebSocketClient } from "../lib/BrowserSocket";
   import type { Download, LockFile } from "../lib/Lock/types";
-	const client = new WebSocketClient("ws://localhost:8080");
+	const client = new WebSocketClient("ws://localhost:8081");
 	export let lockFile: LockFile;
 
 	const downloads: {

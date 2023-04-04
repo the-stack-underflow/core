@@ -43,7 +43,7 @@
 		}
 	} = {};
 
-	const client = new WebSocketClient("ws://localhost:8080");
+	const client = new WebSocketClient("ws://localhost:8081");
 	client.on("open", () => {
 		client.subscribe("dataset:download:start", (data: { site: Site }) => {
 			downloads[data.site.title] = {

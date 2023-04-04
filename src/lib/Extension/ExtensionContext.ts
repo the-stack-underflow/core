@@ -7,6 +7,9 @@ import { Views, APIRoutes, SidebarLinks, loadedExtensions } from "../Shared";
 
 type LockFileCallback = (data: Record<string, any>) => Record<string, any> | Promise<Record<string, any>>;
 
+export type SuccessResponse = (data: Record<string, any>) => Response;
+export type ErrorResponse = (errors: string[]) => Response;
+
 export class ExtensionContext {
 	constructor(public id: string) {
 		// Make all properties immutable.
@@ -80,7 +83,7 @@ export class ExtensionContext {
 
 	public getPersistentLocation(): string {
 		// If the persistent folder for this id does not exist already, create it.
-		const dir = path.join(__dirname, "./persistent/", this.id);
+		const dir = path.join(__dirname, "../persistent/", this.id);
 		if (!fs.existsSync(dir)) {
 			fs.mkdirSync(dir);
 		}
@@ -132,7 +135,7 @@ export class ExtensionContext {
 
 	public getStoragePath() {
 		// Check if the path has already been created, otherwise we need to create the directory.
-		const dir = path.join(__dirname, "./persistent", this.id);
+		const dir = path.join(__dirname, "../persistent", this.id);
 		if (!fs.existsSync(dir)) {
 			fs.mkdirSync(dir, { recursive: true });
 		}
